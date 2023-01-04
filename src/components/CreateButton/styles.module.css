@@ -1,0 +1,13 @@
+.button {
+  background: var(--blue-700);
+  color: var(--gray-100);
+
+  border-radius: var(--border-radius-base);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 1rem;
+}
