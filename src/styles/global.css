@@ -31,8 +31,10 @@
 }
 
 :focus {
-  outline: transparent;
-  box-shadow: 0 0 0 2px var(--purple-500);
+  outline-color: var(--blue-500);
+  outline-style: dashed;
+  box-shadow: none;
+  outline-width: 1px;
 }
 
 * {
@@ -42,8 +44,8 @@
 }
 
 body {
-  background: var(--gray-700);
-  color: var(--gray-300);
+  background: var(--gray-600);
+  color: var(--gray-100);
   -webkit-font-smoothing: antialiased;
 }
 
