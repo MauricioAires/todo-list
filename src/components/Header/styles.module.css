@@ -5,4 +5,5 @@
   align-items: center;
 
   background: var(--gray-700);
+  width: 100%;
 }
