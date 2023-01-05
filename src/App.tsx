@@ -36,7 +36,7 @@ export function App() {
         'Terminar, documentar e, principalmente, me divertir, fazendo meu projeto pessoal.'
     },
     {
-      id: 3,
+      id: 4,
       status: 'uncheck',
       content: 'Finalizar o Ignite'
     }
