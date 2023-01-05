@@ -15,9 +15,14 @@ export function Summary({ completedTasks = 0, countTasks = 0 }: SummaryProps) {
 
       <div className={S.completedTasks}>
         <p>Concluídas</p>
-        <span>
-          {completedTasks} de {countTasks}
-        </span>
+
+        {countTasks ? (
+          <span>
+            {completedTasks} de {countTasks}
+          </span>
+        ) : (
+          <span>0</span>
+        )}
       </div>
     </div>
   )
