@@ -2,9 +2,18 @@ import { Trash } from 'phosphor-react'
 
 import S from './styles.module.css'
 
-export function DeleteButton() {
+interface DeleteButtonProps {
+  onClick: () => void
+}
+
+export function DeleteButton({ onClick }: DeleteButtonProps) {
   return (
-    <button className={S.button} type="button" title="Excluir">
+    <button
+      onClick={() => onClick()}
+      className={S.button}
+      type="button"
+      title="Excluir"
+    >
       <Trash size={14} />
     </button>
   )
